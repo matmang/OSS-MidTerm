@@ -1,0 +1,40 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+#include<stdlib.h>
+#define N 3
+
+
+int main(void) {
+	system("pause");
+	return 0;
+}
+
+void prn_heading(void) {
+	printf("\n::::: A TABLE OF POWERS :::::\n\n");
+}
+
+void prn_tbl_of_powers(int n) {
+	int i, j;
+	for (i = 1; i <= n; ++i) {
+		for (j = 1; j <= n; ++j) {
+			if (j == 1)
+				printf("%ld", power(i, j));
+			else
+				printf("%9ld", power(i, j));
+			putchar('\n');
+		}
+	}
+}
+
+long power(int m, int n) {
+	int i;
+	long product = 1;
+	for (i = 1; i <= n; ++i)
+		product *= m;
+	return product;
+}
+
+int factorial(int n) {
+	if (n == 1) return 1;
+	return n * factorial(n - 1);
+}
