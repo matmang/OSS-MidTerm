@@ -1,2 +1,11 @@
+<<<<<<< HEAD
 Hello world
 a remote change
+=======
+<<<<<<< HEAD
+Hello guys!
+
+=======
+Hello world
+>>>>>>> 9845e807f24396fab086eac14f51738074b208a2
+>>>>>>> 741fa2dd33f1cf5e060970ad7083ae86fec332ba
