@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 Hello guys!
 
+=======
+Hello world
+>>>>>>> 9845e807f24396fab086eac14f51738074b208a2
